@@ -1,3 +1,13 @@
+# To run this package #
+
+On Ubuntu 18.04
+```
+conda create -n slayerPytorch python=3.5 cudatoolkit=9.2
+conda activate slayerPytorch
+pip install -r requirements.txt 
+python setup.py install
+```
+
 # README #
 This package is a PyTorch port of the original **S**pike **LAY**er **E**rror **R**eassignment (**SLAYER**) framework for backpropagation based spiking neural networks (SNNs) learning.
 The original implementation is in C++ with CUDA and CUDNN. 
