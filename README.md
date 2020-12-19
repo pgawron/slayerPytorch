@@ -4,6 +4,8 @@ On Ubuntu 18.04
 ```
 conda create -n slayerPytorch python=3.5 cudatoolkit=9.2
 conda activate slayerPytorch
+git clone git@github.com:pgawron/slayerPytorch.git
+cd slayerPytorch
 pip install -r requirements.txt 
 python setup.py install
 ```
